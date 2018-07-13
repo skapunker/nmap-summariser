@@ -94,6 +94,7 @@ def main():
                                 	service_version =  service_tag.getAttribute("version")
 
                                 print "\"" + portnum + "\",\"" + state + "\",\"" + service_name + "\",\"" + service_product + ",\"" + service_version + "\""
+                    print "\n" + "-" * 10 + "\n"
 
             except Exception as e:
                 exc_type, exc_obj, exc_tb = sys.exc_info()
